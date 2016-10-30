@@ -1,4 +1,5 @@
-var UserController = require('../../controllers/UserController');
+var UserController  = require('../../controllers/UserController'),
+    passport = require('passport');
 
 module.exports = {
     '/v1': {
